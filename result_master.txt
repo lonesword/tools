@@ -1,0 +1,5 @@
+Using /usr/local/lib/libvarnam.so
+Transliteration done
+അവളുടെ
+accuracy 
+0.3706972639011474

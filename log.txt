@@ -1,0 +1,200 @@
+Building Master
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kevin/Development/libvarnam-upstream-master
+[  5%] Building C object CMakeFiles/varnam_core.dir/util.c.o
+[ 11%] Building C object CMakeFiles/varnam_core.dir/lru_cache.c.o
+[ 16%] Building C object CMakeFiles/varnam_core.dir/vutf8.c.o
+[ 22%] Building C object CMakeFiles/varnam_core.dir/trie.c.o
+[ 27%] Building C object CMakeFiles/varnam_core.dir/strbuf.c.o
+[ 33%] Building C object CMakeFiles/varnam_core.dir/transliterate.c.o
+[ 38%] Building C object CMakeFiles/varnam_core.dir/symbol-table.c.o
+[ 44%] Building C object CMakeFiles/varnam_core.dir/words-table.c.o
+[ 50%] Building C object CMakeFiles/varnam_core.dir/varray.c.o
+[ 55%] Building C object CMakeFiles/varnam_core.dir/token.c.o
+[ 61%] Building C object CMakeFiles/varnam_core.dir/vword.c.o
+[ 66%] Building C object CMakeFiles/varnam_core.dir/learn.c.o
+[ 72%] Building C object CMakeFiles/varnam_core.dir/rendering.c.o
+[ 77%] Building C object CMakeFiles/varnam_core.dir/lang_detection.c.o
+[ 83%] Building C object CMakeFiles/varnam_core.dir/renderer/ml_unicode.c.o
+[ 88%] Building C object CMakeFiles/varnam_core.dir/varnam.c.o
+[ 88%] Built target varnam_core
+[ 94%] Building C object deps/CMakeFiles/deps.dir/snprintf.c.o
+[100%] Building C object deps/CMakeFiles/deps.dir/sqlite3.c.o
+[100%] Built target deps
+Linking C shared library libvarnam.so
+[100%] Built target varnam
+Linking C static library libvarnamstatic.a
+[100%] Built target varnamstatic
+[ 88%] Built target varnam_core
+[100%] Built target deps
+[100%] Built target varnam
+[100%] Built target varnamstatic
+Install the project...
+-- Install configuration: ""
+-- Installing: /usr/local/lib/libvarnam.so.3.1.4
+-- Up-to-date: /usr/local/lib/libvarnam.so.3
+-- Up-to-date: /usr/local/lib/libvarnam.so
+-- Installing: /usr/local/lib/libvarnamstatic.a
+-- Installing: /usr/local/include/libvarnam/varnam.h
+-- Installing: /usr/local/include/libvarnam/api.h
+-- Installing: /usr/local/include/libvarnam/result-codes.h
+-- Installing: /usr/local/include/libvarnam/vtypes.h
+-- Installing: /usr/local/include/libvarnam/util.h
+-- Installing: /usr/local/include/libvarnam/varray.h
+-- Installing: /usr/local/include/libvarnam/vutf8.h
+-- Installing: /usr/local/include/libvarnam/langcodes.h
+-- Installing: /usr/local/include/libvarnam/deps/sqlite3.h
+-- Installing: /usr/local/include/libvarnam/deps/uthash.h
+-- Installing: /usr/local/lib/pkgconfig/varnam.pc
+-- Installing: /usr/local/lib/pkgconfig/varnamstatic.pc
+-- Installing: /usr/local/share/varnam/vst/ml.vst
+-- Installing: /usr/local/lib/varnamruby.rb
+-- Installing: /usr/local/share/man/man1/varnamc.1
+-- Installing: /usr/local/bin/varnamc
+Using ./libvarnam.so
+Compiling schemes/ml
+Building schemes/ml.vst
+Completed with '0' warning(s) and '0' error(s)
+[ 88%] Built target varnam_core
+[100%] Built target deps
+[100%] Built target varnam
+[100%] Built target varnamstatic
+Install the project...
+-- Install configuration: ""
+-- Up-to-date: /usr/local/lib/libvarnam.so.3.1.4
+-- Up-to-date: /usr/local/lib/libvarnam.so.3
+-- Up-to-date: /usr/local/lib/libvarnam.so
+-- Up-to-date: /usr/local/lib/libvarnamstatic.a
+-- Up-to-date: /usr/local/include/libvarnam/varnam.h
+-- Up-to-date: /usr/local/include/libvarnam/api.h
+-- Up-to-date: /usr/local/include/libvarnam/result-codes.h
+-- Up-to-date: /usr/local/include/libvarnam/vtypes.h
+-- Up-to-date: /usr/local/include/libvarnam/util.h
+-- Up-to-date: /usr/local/include/libvarnam/varray.h
+-- Up-to-date: /usr/local/include/libvarnam/vutf8.h
+-- Up-to-date: /usr/local/include/libvarnam/langcodes.h
+-- Up-to-date: /usr/local/include/libvarnam/deps/sqlite3.h
+-- Up-to-date: /usr/local/include/libvarnam/deps/uthash.h
+-- Up-to-date: /usr/local/lib/pkgconfig/varnam.pc
+-- Up-to-date: /usr/local/lib/pkgconfig/varnamstatic.pc
+-- Installing: /usr/local/share/varnam/vst/ml.vst
+-- Up-to-date: /usr/local/lib/varnamruby.rb
+-- Up-to-date: /usr/local/share/man/man1/varnamc.1
+-- Up-to-date: /usr/local/bin/varnamc
+Learning corpus
+Checking Accuracy
+Building stemmer
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kevin/Development/libvarnam
+Scanning dependencies of target varnam_core
+[  3%] Building C object CMakeFiles/varnam_core.dir/util.c.o
+[  6%] Building C object CMakeFiles/varnam_core.dir/lru_cache.c.o
+[ 10%] Building C object CMakeFiles/varnam_core.dir/vutf8.c.o
+[ 13%] Building C object CMakeFiles/varnam_core.dir/trie.c.o
+[ 16%] Building C object CMakeFiles/varnam_core.dir/strbuf.c.o
+[ 20%] Building C object CMakeFiles/varnam_core.dir/transliterate.c.o
+[ 23%] Building C object CMakeFiles/varnam_core.dir/symbol-table.c.o
+[ 26%] Building C object CMakeFiles/varnam_core.dir/words-table.c.o
+[ 30%] Building C object CMakeFiles/varnam_core.dir/varray.c.o
+[ 33%] Building C object CMakeFiles/varnam_core.dir/token.c.o
+[ 36%] Building C object CMakeFiles/varnam_core.dir/vword.c.o
+[ 40%] Building C object CMakeFiles/varnam_core.dir/learn.c.o
+[ 43%] Building C object CMakeFiles/varnam_core.dir/rendering.c.o
+[ 46%] Building C object CMakeFiles/varnam_core.dir/lang_detection.c.o
+[ 50%] Building C object CMakeFiles/varnam_core.dir/renderer/ml_unicode.c.o
+[ 53%] Building C object CMakeFiles/varnam_core.dir/varnam.c.o
+[ 53%] Built target varnam_core
+[ 56%] Building C object deps/CMakeFiles/deps.dir/snprintf.c.o
+[ 60%] Building C object deps/CMakeFiles/deps.dir/sqlite3.c.o
+[ 60%] Built target deps
+Linking C shared library libvarnam.so
+[ 60%] Built target varnam
+Linking C static library libvarnamstatic.a
+[ 60%] Built target varnamstatic
+[ 63%] Building C object tests/CMakeFiles/runtests.dir/test-runner.c.o
+[ 66%] Building C object tests/CMakeFiles/runtests.dir/initialization.c.o
+[ 70%] Building C object tests/CMakeFiles/runtests.dir/transliteration.c.o
+[ 73%] Building C object tests/CMakeFiles/runtests.dir/learning.c.o
+[ 76%] Building C object tests/CMakeFiles/runtests.dir/testcases.c.o
+[ 80%] Building C object tests/CMakeFiles/runtests.dir/vst-compilation.c.o
+[ 83%] Building C object tests/CMakeFiles/runtests.dir/export-words.c.o
+[ 86%] Building C object tests/CMakeFiles/runtests.dir/strbuftest.c.o
+[ 90%] Building C object tests/CMakeFiles/runtests.dir/varnamc_tests.c.o
+[ 93%] Building C object tests/CMakeFiles/runtests.dir/stemmer_tests.c.o
+Linking C executable runtests
+[ 93%] Built target runtests
+[ 96%] Building C object examples/CMakeFiles/learning.dir/learning.c.o
+Linking C executable learning
+[ 96%] Built target learning
+[100%] Building C object examples/CMakeFiles/transliteration.dir/transliteration.c.o
+Linking C executable transliteration
+[100%] Built target transliteration
+[ 53%] Built target varnam_core
+[ 60%] Built target deps
+[ 60%] Built target varnam
+[ 60%] Built target varnamstatic
+[ 93%] Built target runtests
+[ 96%] Built target learning
+[100%] Built target transliteration
+Install the project...
+-- Install configuration: "debug"
+-- Installing: /usr/local/lib/libvarnam.so.3.1.4
+-- Up-to-date: /usr/local/lib/libvarnam.so.3
+-- Up-to-date: /usr/local/lib/libvarnam.so
+-- Installing: /usr/local/lib/libvarnamstatic.a
+-- Installing: /usr/local/include/libvarnam/varnam.h
+-- Installing: /usr/local/include/libvarnam/api.h
+-- Installing: /usr/local/include/libvarnam/result-codes.h
+-- Installing: /usr/local/include/libvarnam/vtypes.h
+-- Installing: /usr/local/include/libvarnam/util.h
+-- Installing: /usr/local/include/libvarnam/varray.h
+-- Installing: /usr/local/include/libvarnam/vutf8.h
+-- Installing: /usr/local/include/libvarnam/langcodes.h
+-- Installing: /usr/local/include/libvarnam/deps/sqlite3.h
+-- Installing: /usr/local/include/libvarnam/deps/uthash.h
+-- Installing: /usr/local/lib/pkgconfig/varnam.pc
+-- Installing: /usr/local/lib/pkgconfig/varnamstatic.pc
+-- Installing: /usr/local/share/varnam/vst/ml.vst
+-- Up-to-date: /usr/local/share/varnam/vst/ml-inscript.vst
+-- Installing: /usr/local/lib/varnamruby.rb
+-- Installing: /usr/local/share/man/man1/varnamc.1
+-- Installing: /usr/local/bin/varnamc
+Using ./libvarnam.so
+Compiling schemes/ml
+Building schemes/ml.vst
+
+Completed with '0' warning(s) and '0' error(s)
+[ 53%] Built target varnam_core
+[ 60%] Built target deps
+[ 60%] Built target varnam
+[ 60%] Built target varnamstatic
+[ 93%] Built target runtests
+[ 96%] Built target learning
+[100%] Built target transliteration
+Install the project...
+-- Install configuration: "debug"
+-- Up-to-date: /usr/local/lib/libvarnam.so.3.1.4
+-- Up-to-date: /usr/local/lib/libvarnam.so.3
+-- Up-to-date: /usr/local/lib/libvarnam.so
+-- Up-to-date: /usr/local/lib/libvarnamstatic.a
+-- Up-to-date: /usr/local/include/libvarnam/varnam.h
+-- Up-to-date: /usr/local/include/libvarnam/api.h
+-- Up-to-date: /usr/local/include/libvarnam/result-codes.h
+-- Up-to-date: /usr/local/include/libvarnam/vtypes.h
+-- Up-to-date: /usr/local/include/libvarnam/util.h
+-- Up-to-date: /usr/local/include/libvarnam/varray.h
+-- Up-to-date: /usr/local/include/libvarnam/vutf8.h
+-- Up-to-date: /usr/local/include/libvarnam/langcodes.h
+-- Up-to-date: /usr/local/include/libvarnam/deps/sqlite3.h
+-- Up-to-date: /usr/local/include/libvarnam/deps/uthash.h
+-- Up-to-date: /usr/local/lib/pkgconfig/varnam.pc
+-- Up-to-date: /usr/local/lib/pkgconfig/varnamstatic.pc
+-- Installing: /usr/local/share/varnam/vst/ml.vst
+-- Up-to-date: /usr/local/share/varnam/vst/ml-inscript.vst
+-- Up-to-date: /usr/local/lib/varnamruby.rb
+-- Up-to-date: /usr/local/share/man/man1/varnamc.1
+-- Up-to-date: /usr/local/bin/varnamc
+Learning corpus
+Checking accuracy
